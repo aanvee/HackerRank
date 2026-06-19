@@ -1,0 +1,66 @@
+.env
+_pycache
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Environment Variables
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Python Build Artifacts
+build/
+dist/
+*.egg-info/
+
+# Testing / Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model / Cache Files
+.cache/
+models/
+checkpoints/
+
+# Temporary Files
+temp/
+tmp/
+*.tmp
+
+# Secrets
+secrets.json
+credentials.json
+service-account.json
+
+# Dataset (optional)
+# Uncomment if datasets are large or private
+# dataset/
+
+# Evaluation Outputs
+evaluation/results/
+evaluation/output/
+
+# Claude / AI Agent Artifacts
+.claude/
