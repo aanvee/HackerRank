@@ -1,0 +1,260 @@
+{
+  "extract_9b0843f65e4d028546668a356f97ec76": {
+    "claimed_issue": "broken_part",
+    "claimed_part": "front_bumper"
+  },
+  "vision_6ca699f00896c9d3457c6f731ca8ead8": {
+    "issue_type": "scratch",
+    "object_part": "front_bumper",
+    "severity": "medium",
+    "valid_image": true,
+    "risk_flags": [
+      "claim_mismatch"
+    ],
+    "evidence_standard_met": true,
+    "evidence_standard_met_reason": "Image 2 clearly shows the claimed object (car) and the relevant part (front bumper) with visible damage, meeting all general object, part, and review trust requirements. However, the visible damage type is a mismatch with the 'broken_part' claimed.",
+    "supporting_image_ids": [
+      "img_2"
+    ],
+    "claim_status_suggestion": "contradicted",
+    "claim_status_justification": "The customer claimed a 'broken_part' on the front bumper. Image 2 clearly displays significant scratches and scuffs on the front bumper. However, there is no visible evidence of a 'broken_part' (e.g., a missing piece, a large crack constituting breakage), contradicting the specific damage type claimed."
+  },
+  "extract_0bed16f9dec04e60a8a3aa4953bbc437": {
+    "claimed_issue": "dent",
+    "claimed_part": "door"
+  },
+  "vision_02b689f22a39aec8633d42618978abc3": {
+    "issue_type": "dent",
+    "object_part": "door",
+    "severity": "medium",
+    "valid_image": true,
+    "risk_flags": [],
+    "evidence_standard_met": true,
+    "evidence_standard_met_reason": "The image clearly shows a dent on the claimed car door, meeting all visual evidence requirements for assessment.",
+    "supporting_image_ids": [
+      "img_1"
+    ],
+    "claim_status_suggestion": "supported",
+    "claim_status_justification": "Image img_1 provides clear visual evidence of a dent on the car's door, as claimed by the customer. The dent is visible at the seam between what appears to be two door panels, with a hand pointing directly to the area of damage."
+  },
+  "extract_fd590b50aee85dfc2465456d9f087506": {
+    "claimed_issue": "glass_shatter",
+    "claimed_part": "windshield"
+  },
+  "vision_677f2954ca089dc8de298f9794026cc2": {
+    "issue_type": "glass_shatter",
+    "object_part": "windshield",
+    "severity": "high",
+    "valid_image": true,
+    "risk_flags": [],
+    "evidence_standard_met": true,
+    "evidence_standard_met_reason": "Image img_1 clearly displays multiple points of glass shatter with radiating cracks on the windshield, meeting all visual evidence requirements.",
+    "supporting_image_ids": [
+      "img_1"
+    ],
+    "claim_status_suggestion": "supported",
+    "claim_status_justification": "Image img_1 provides clear visual evidence of extensive glass shatter on the windshield, which directly supports the customer's claim. Although img_2 shows the windshield area, it does not depict the claimed damage."
+  },
+  "extract_c229f937f5f04bb16c0d3493ebb709a8": {
+    "claimed_issue": "broken_part",
+    "claimed_part": "side_mirror"
+  },
+  "vision_af2653812a5dd0f868134bca97bda1b9": {
+    "issue_type": "unknown",
+    "object_part": "side_mirror",
+    "severity": "unknown",
+    "valid_image": true,
+    "risk_flags": [
+      "wrong_angle",
+      "wrong_object_part",
+      "damage_not_visible"
+    ],
+    "evidence_standard_met": false,
+    "evidence_standard_met_reason": "The claimed object part (side mirror) is not visible clearly enough in any submitted image to inspect for a broken part. Image img_1 shows the entire car but the side mirror is too distant for detailed inspection. Image img_2 shows a car wheel, which is not the claimed part.",
+    "supporting_image_ids": [],
+    "claim_status_suggestion": "not_enough_information",
+    "claim_status_justification": "Image img_1 shows the claimed car, but the side mirror is too far away to assess any damage. Image img_2 focuses on a car wheel, which is not the claimed side mirror. Therefore, there is no visual evidence to confirm a broken part on the side mirror."
+  },
+  "extract_f57630adadbb26eae4dddc3cbc82f5c6": {
+    "claimed_issue": "dent",
+    "claimed_part": "hood"
+  },
+  "vision_6ce264da176245829862ac68e3aedaf4": {
+    "issue_type": "dent",
+    "object_part": "hood",
+    "severity": "unknown",
+    "valid_image": false,
+    "risk_flags": [
+      "blurry_image",
+      "non_original_image"
+    ],
+    "evidence_standard_met": false,
+    "evidence_standard_met_reason": "The image (img_1) is extremely blurry, preventing a clear assessment of the claimed dents. Furthermore, a 'dreamstime.com' watermark is present, indicating it is a non-original or stock image, which undermines its credibility as claim evidence.",
+    "supporting_image_ids": [],
+    "claim_status_suggestion": "not_enough_information",
+    "claim_status_justification": "While the claimed object (car) and part (hood) are visible in img_1, the image is severely blurry, making it impossible to definitively confirm the presence, nature, or severity of any dents. The 'dreamstime.com' watermark also raises concerns about the image's authenticity as original claim evidence."
+  },
+  "extract_9b12bad3390ea4c1bde468f5254702e3": {
+    "claimed_issue": "dent",
+    "claimed_part": "rear_bumper"
+  },
+  "vision_51e4482707abc32229c918def86914d0": {
+    "issue_type": "unknown",
+    "object_part": "unknown",
+    "severity": "unknown",
+    "valid_image": true,
+    "risk_flags": [
+      "wrong_object_part"
+    ],
+    "evidence_standard_met": false,
+    "evidence_standard_met_reason": "The claimed car part (rear_bumper) is not visible in any submitted image. Image img_1 shows the side door and rear quarter panel of a car, and img_2 shows the front bumper of a different car.",
+    "supporting_image_ids": [],
+    "claim_status_suggestion": "not_enough_information",
+    "claim_status_justification": "Neither image shows the rear bumper of the claimed car. Image img_1 displays damage (putty/primer) on the side door and rear quarter panel, not the rear bumper. Image img_2 shows the front bumper of a different vehicle with no visible damage. Therefore, there is insufficient visual evidence to verify a dent on the rear bumper."
+  },
+  "extract_fa0fbf7363256586263bf8d36ef7d858": {
+    "claimed_issue": "broken_part",
+    "claimed_part": "headlight"
+  },
+  "vision_1b8d5f008ee8dfcbcc3df8d38fd5f76c": {
+    "issue_type": "broken_part",
+    "object_part": "headlight",
+    "severity": "high",
+    "valid_image": true,
+    "risk_flags": [
+      "text_instruction_present",
+      "cropped_or_obstructed"
+    ],
+    "evidence_standard_met": true,
+    "evidence_standard_met_reason": "The claimed headlight and its broken condition are clearly visible in both images, meeting all specific requirements for inspecting a light component.",
+    "supporting_image_ids": [
+      "img_1",
+      "img_2"
+    ],
+    "claim_status_suggestion": "supported",
+    "claim_status_justification": "Both img_1 and img_2 clearly show a severely broken headlight with shattered and missing lens pieces, consistent with the 'broken_part' claim. img_1 provides a detailed close-up of the damage, while img_2 shows it in a broader context with surrounding vehicle damage. The sticky note in img_1 partially obstructs the view but the damage is still clearly visible."
+  },
+  "extract_d9410faad7c2d3310cded4f999a7a398": {
+    "claimed_issue": "dent",
+    "claimed_part": "door"
+  },
+  "vision_1dea65cfe583cedd6e53dda32552b696": {
+    "issue_type": "dent",
+    "object_part": "door",
+    "severity": "high",
+    "valid_image": true,
+    "risk_flags": [
+      "wrong_object_part"
+    ],
+    "evidence_standard_met": true,
+    "evidence_standard_met_reason": "Image img_1 clearly shows a significant dent on the car door, meeting all visual evidence requirements for the claimed damage and location.",
+    "supporting_image_ids": [
+      "img_1"
+    ],
+    "claim_status_suggestion": "supported",
+    "claim_status_justification": "Image img_1 clearly shows a high-severity dent on the side doors of the yellow car, directly supporting the claim of a 'dent on the door'. Images img_2 and img_3 show damage on other parts of the car (front bumper/fender and rear bumper/quarter panel, respectively) which are not relevant to the claimed 'dent on the door'."
+  },
+  "extract_926ed846da9e53841bcbd30fbc9d6d07": {
+    "claimed_issue": "crack",
+    "claimed_part": "taillight"
+  },
+  "vision_7903c5fc1c446aa9f1776555485a7efc": {
+    "issue_type": "unknown",
+    "object_part": "headlight",
+    "severity": "high",
+    "valid_image": true,
+    "risk_flags": [
+      "wrong_object_part"
+    ],
+    "evidence_standard_met": false,
+    "evidence_standard_met_reason": "The submitted image (img_1) shows the front of the car and significant damage to the headlight, hood, and front bumper. The claimed object part is the 'taillight', which is located at the rear of the car and is not visible in the provided image.",
+    "supporting_image_ids": [],
+    "claim_status_suggestion": "not_enough_information",
+    "claim_status_justification": "The provided image (img_1) clearly shows the front of a car with extensive damage, including a broken headlight and dents to the hood and fender. However, the claim specifically states a 'crack on the taillight'. Taillights are located at the rear of the vehicle, which is not visible in this image. Therefore, there is no visual evidence to support or contradict the claimed crack on the taillight."
+  },
+  "extract_8ec8892f94bb2d755bf64d39602b4404": {
+    "claimed_issue": "crack",
+    "claimed_part": "windshield"
+  },
+  "vision_b8895161ca90fff39ec5d66a9e1ed5bb": {
+    "issue_type": "crack",
+    "object_part": "windshield",
+    "severity": "high",
+    "valid_image": true,
+    "risk_flags": [],
+    "evidence_standard_met": true,
+    "evidence_standard_met_reason": "The image clearly shows the claimed car windshield with extensive crack damage, meeting all relevant visual evidence requirements for inspection.",
+    "supporting_image_ids": [
+      "img_1"
+    ],
+    "claim_status_suggestion": "supported",
+    "claim_status_justification": "Image img_1 clearly displays significant crack damage on the car's windshield, directly supporting the customer's claim of a crack on the windshield."
+  },
+  "extract_e3ed9fa36b98e136adf696cabb151be0": {
+    "claimed_issue": "crack",
+    "claimed_part": "screen"
+  },
+  "extract_5f41c31bc22e6cea614d3713d7160256": {
+    "claimed_issue": "water_damage",
+    "claimed_part": "keyboard"
+  },
+  "vision_79bc9ef7572386212a6ed4ef81eec958": {
+    "issue_type": "none",
+    "object_part": "keyboard",
+    "severity": "none",
+    "valid_image": true,
+    "risk_flags": [],
+    "evidence_standard_met": true,
+    "evidence_standard_met_reason": "The image clearly shows the claimed object (laptop) and the relevant part (keyboard) with sufficient detail and quality to inspect for the claimed damage. However, no water damage is visible.",
+    "supporting_image_ids": [
+      "img_1"
+    ],
+    "claim_status_suggestion": "contradicted",
+    "claim_status_justification": "The image 'img_1' provides a clear and well-lit view of the laptop keyboard. After careful inspection, no signs of water damage, such as stains, liquid residue, or discoloration, are visible on the keyboard or surrounding areas. The keyboard appears clean and intact."
+  },
+  "extract_a1e920d889e985874b5bbcbd7db5fefd": {
+    "claimed_issue": "broken_part",
+    "claimed_part": "hinge"
+  },
+  "extract_52cec53c99c139adc126662e8efc55b1": {
+    "claimed_issue": "dent",
+    "claimed_part": "rear_bumper"
+  },
+  "vision_d8647d85b6c5c77a67882af11ed12cf7": {
+    "issue_type": "dent",
+    "object_part": "rear_bumper",
+    "severity": "high",
+    "valid_image": true,
+    "risk_flags": [],
+    "evidence_standard_met": true,
+    "evidence_standard_met_reason": "The image clearly displays the rear bumper area of the car from an appropriate angle, showing the claimed damage with sufficient detail to assess its nature and severity. All minimum evidence requirements are met.",
+    "supporting_image_ids": [
+      "img_1"
+    ],
+    "claim_status_suggestion": "supported",
+    "claim_status_justification": "Image img_1 provides clear visual evidence of severe damage to the rear of the car, including a prominent dent and significant deformation on the underlying metal rear bumper beam and surrounding bodywork, fully supporting the claim of a dent on the rear bumper. The plastic bumper cover is also largely missing or broken."
+  },
+  "extract_d073a48c0b553362b64a98b71714f413": {
+    "claimed_issue": "scratch",
+    "claimed_part": "front_bumper"
+  },
+  "vision_2cf47b98b229d55429fc7807c5e487a7": {
+    "issue_type": "broken_part",
+    "object_part": "front_bumper",
+    "severity": "high",
+    "valid_image": true,
+    "risk_flags": [
+      "wrong_object",
+      "claim_mismatch"
+    ],
+    "evidence_standard_met": false,
+    "evidence_standard_met_reason": "The submitted images show two different vehicles. Image img_1 shows severe damage (dent and broken part) on a front bumper of one car, while image img_2 shows an undamaged front bumper of a completely different car. Neither image supports a 'scratch' on the claimed car's front bumper, and there is no consistent evidence for a single vehicle.",
+    "supporting_image_ids": [],
+    "claim_status_suggestion": "not_enough_information",
+    "claim_status_justification": "Image img_1 displays a car with a severely damaged front bumper (dent and broken part), which is inconsistent with a 'scratch' claim. Image img_2 shows a different car with an undamaged front bumper. The claim cannot be verified as the evidence pertains to different vehicles and does not show a scratch."
+  },
+  "extract_5785033bd7802fbac71f59bce3fb197b": {
+    "claimed_issue": "crack",
+    "claimed_part": "windshield"
+  }
+}
